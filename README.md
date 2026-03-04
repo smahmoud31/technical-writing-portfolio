@@ -1,2 +1,2 @@
 # technical-writing-portfolio
-Technical writing portfolio (entry-level, new grad)
+Entry-level technical writing portfolio, last updated March 2026
