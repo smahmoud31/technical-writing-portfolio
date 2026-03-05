@@ -1,9 +1,12 @@
 # Beginner’s Guide to Writing Your First SQL Query
 
 ## Explain:
-What SQL is
-How to write SELECT
-Show examples
-Explain output
+1. What SQL is
+
+2. How to write SELECT
+
+3. Show examples
+
+4. Explain output
 
 ## Audience: someone new
