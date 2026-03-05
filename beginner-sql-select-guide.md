@@ -14,11 +14,20 @@ SQL (Structured Query Language) is the standard language used to access and mani
 SQL is commonly used in applications that manage large amounts of data, such as e-commerce systems, healthcare records, and financial transaction systems.
 
 ## Rules for Writing Queries
-- SQL statements end with a semicolon (;) to tell the computer the statement has ended
+- SQL statements end with a semicolon (;)
 - Certain words, such as `SELECT` or `INSERT`, are reserved keywords and should not be used for table or column names
-- To write a comment (text SQL won't try to run), use -- at the start of a single-line comment, or /* comment here */ for a multi-line comment
+- To write a comment (text SQL won't try to run), use this formatting:
+
+```
+-- single line comment
+
+/*
+ multi-line
+ comment
+*/
+```
 - SQL keywords are case-insensitive, but it is best practice to capitalize keywords for readability
-- Similarly, SQL does not care about extra spaces, so formatting queries across multiple lines improves readability
+- Similarly, SQL ignores extra spaces, so formatting queries across multiple lines improves readability
 
 ## How to Write Your First Query (SELECT)
 
@@ -28,19 +37,26 @@ A database stores data in tables. A table is similar to a spreadsheet:
 
  `SELECT` is the keyword that you use to look at some or all of that data. The general format of a `SELECT` statement is:
 
-  `SELECT * FROM table_name;`
+```
+SELECT *
+FROM table_name;
+```
 
-The * retrieves every column from the table. You can also pick only one column to view:
+The '*' symbol retrieves every column from the table. You can also pick only one column to view:
 
-  `SELECT column_name 
-  FROM table_name;`
+```
+SELECT column_name 
+FROM table_name;
+```
 
 or a list of columns like this:
 
-  `SELECT col1, 
-  col2, 
-  col3 
-  FROM table_name;`
+```
+SELECT col1, 
+col2, 
+col3 
+FROM table_name;
+```
 
 This is often better than using * because retrieving every column from a large table can return more data than necessary and slow down queries. 
 
@@ -48,9 +64,21 @@ This is often better than using * because retrieving every column from a large t
 
 Let's run some `SELECT` statements on a table of simulated employee data, named `employee_data`, that could be in your database.
 
+```
+  Database 
+  └── employee_data table
+      ├── ID
+      ├── Name
+      ├── Department
+      └── Salary
+```
+
 If the table is small, you can view all rows by running:
 
-`SELECT * FROM employee_data;`
+```
+SELECT * 
+FROM employee_data;
+```
 
 which returns the following output:
 
@@ -61,8 +89,10 @@ which returns the following output:
 
 Each row represents an employee. A data analyst might use `employee_data` to perform analysis on employee salaries. To see the salaries only, run:
 
-  `SELECT salary 
-  FROM employee_data;`
+```
+SELECT salary 
+FROM employee_data;
+```
 
 which returns the following output:
 
@@ -71,12 +101,14 @@ which returns the following output:
 | 90000 | 
 | 80000 | 
 
-Each row is a different employee's salary. To compare salaries by department, run:
+Each row represents the salary of one employee. To compare salaries by department, run:
 
-  `SELECT 
-  department, 
-  salary 
-  FROM employee_data;`
+```
+SELECT 
+department, 
+salary 
+FROM employee_data;
+```
 
 which returns the following output:
 
@@ -87,11 +119,12 @@ which returns the following output:
 
 The query returns two columns: department and salary. Each row will have one employee's department and salary. 
 
-## This guide introduced:
+## Summary
+This guide introduced:
 - What SQL is
 - How to use `SELECT` to retrieve data from a table
 
-## Next Steps:
+## Next Steps
 - Filter results using WHERE
 - Sort results using ORDER BY
 - Summarize data using GROUP BY
@@ -103,7 +136,7 @@ which also discusses what a relational database is and why we use it.
 
 ### Other Resources
 
-A 2 page cheat-sheet with download links (I reccommend printing this to have next to your computer):
+A 2 page cheat-sheet with download links (I recommend printing this to have next to your computer):
 [https://learnsql.com/blog/sql-basics-cheat-sheet/](https://learnsql.com/blog/sql-basics-cheat-sheet/)
 
 A clear and comprehensive guide to most SQL queries you'll need:
