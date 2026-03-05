@@ -66,5 +66,19 @@ and the output will look like this:
 | IT | 90000 | 
 | Finance | 80000 | 
 
-That's how you use SELECT to view data in a table!
+## Resources
+
+This guide explains to a SQL beginner what SQL is and how to write a SELECT statement to retrieve data from a table.
+
+A beginner-friendly guide to what a relational database is, why we use it, and 5 essential SQL commands:
+[https://learnsql.com/blog/sql-101/](https://learnsql.com/blog/sql-101/)
+
+A 2 page cheat-sheet with download links (so you can print to have next to your computer!):
+[https://learnsql.com/blog/sql-basics-cheat-sheet/](https://learnsql.com/blog/sql-basics-cheat-sheet/)
+
+A clear and comprehensive guide to most SQL commands you'll need:
+[https://www.sqltutorial.org](https://www.sqltutorial.org)
+
+### Questions? 
+Contact me: smahmoudprofessional@gmail.com
 
