@@ -5,14 +5,5 @@ Detail-oriented technical professional with a Computer Science degree. Skilled a
 
 ## Writing Samples
 
-### 1. Beginner’s Guide to Writing Your First SQL Query
-Short description + link
-
-### 2. How to Summarize Data Using Pivot Tables in Excel
-Short description + link
-
-### 3. How to Organize and Format Professional Documents in Google Docs
-Short description + link
-
-### 4. What Is A Relational Database: For Beginners
-Short description + link
+### Beginner’s Guide to Writing Your First SQL Query
+This guide introduces the basics of SQL queries and shows how to retrieve data from a database using the `SELECT` statement.
