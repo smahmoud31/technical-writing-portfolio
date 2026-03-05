@@ -9,7 +9,7 @@ This guide introduces the basics of SQL queries and shows how to retrieve data f
 
 ## What is SQL?
 
-SQL (Structured Query Language) is the standard language used to access and manipulate data in relational databases. SQL allows you to store, retrieve, update, and manage data in a database using structured commands called queries.
+SQL (Structured Query Language) is the standard language used to access and manipulate data in relational databases. SQL allows you to store, retrieve, update, and manage data using structured commands called queries.
 
 SQL is commonly used in applications that manage large amounts of data, such as e-commerce systems, healthcare records, and financial transaction systems.
 
@@ -136,7 +136,7 @@ which also discusses what a relational database is and why we use it.
 
 ### Other Resources
 
-A 2 page cheat-sheet with download links (I recommend printing this to have next to your computer):
+I recommend printing this 2 page cheat-sheet to have next to your computer:
 [https://learnsql.com/blog/sql-basics-cheat-sheet/](https://learnsql.com/blog/sql-basics-cheat-sheet/)
 
 A clear and comprehensive guide to most SQL queries you'll need:
